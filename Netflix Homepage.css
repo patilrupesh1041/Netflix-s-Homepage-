@@ -1,0 +1,136 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+img {
+    height: auto;
+    width: 1348px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1{
+    color: red;
+    
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e50914;
+}
+
+.hero {
+    background-image: url(new.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #b80e0f;
+}
+
+
+.page {
+    background-image: url(Inked2nd%20page.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 200px 0;
+}
+
+.page-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.page-content p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.pag {
+    background-image: url(Inked3rd%20page.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+    padding: 200px 0;
+    text-align-last: right;
+    align-content: space-around;
+} 
+
+.pag-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.pag-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
